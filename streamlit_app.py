@@ -6,6 +6,7 @@ import os
 from openai import OpenAI
 from prompt_functions import generate_prompt
 from dotenv import load_dotenv
+import openpyxl
 
 # Lade die Umgebungsvariablen aus der .env-Datei
 load_dotenv()
