@@ -12,7 +12,7 @@ import openpyxl
 load_dotenv()
 
 # Setze den OpenAI API-Schlüssel
-OPENAI_API_KEY=st.secrets['OPENAI_API_KEY']
+api_key=st.secrets['OPENAI_API_KEY']
 
 # App Titel und Logo
 st.image("logo.png", width=150)  # Füge dein Logo ein
