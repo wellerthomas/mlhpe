@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Setze den OpenAI API-Schlüssel
-api_key = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY=st.secrets['OPENAI_API_KEY']
 
 # App Titel und Logo
 st.image("logo.png", width=150)  # Füge dein Logo ein
