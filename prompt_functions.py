@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Lade den API-Schlüssel aus der .env Datei
-OPENAI_API_KEY="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"
+# Setze den OpenAI API-Schlüssel
+api_key=st.secrets['OPENAI_API_KEY']
 
 
 def generate_prompt(row):
